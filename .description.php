@@ -119,5 +119,93 @@ $data = array(
 				'TYPE' => 'Y/N'
 			),
 		),
+
+		"QR_CHECKOUT_DESC" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_CHECKOUT_DESC"),
+			"DESCRIPTION" => '',
+			'SORT' => 300,
+			'GROUP' => 'Квитанция',
+		),
+		"QR_CHECKOUT_DIRECTOR_STATUS" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_DIRECTOR_STATUS"),
+			"DESCRIPTION" => Loc::getMessage("SALE_HPS_QR_DIRECTOR_STATUS_DESC"),
+			'SORT' => 310,
+			'GROUP' => 'Квитанция',
+			'DEFAULT' => array(
+				'PROVIDER_KEY' => 'VALUE',
+				'PROVIDER_VALUE' =>  Loc::getMessage("SALE_HPS_QR_DIRECTOR_STATUS_DEFAULT")
+			)
+		),
+		"QR_CHECKOUT_BUH_STATUS" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_BUH_STATUS"),
+			"DESCRIPTION" => Loc::getMessage("SALE_HPS_QR_BUH_STATUS_DESC"),
+			'SORT' => 320,
+			'GROUP' => 'Квитанция',
+			'DEFAULT' => array(
+				'PROVIDER_KEY' => 'VALUE',
+				'PROVIDER_VALUE' =>  Loc::getMessage("SALE_HPS_QR_BUH_STATUS_DEFAULT")
+			)
+		),
+		"QR_CHECKOUT_DIRECTOR_NAME" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_DIRECTOR_NAME"),
+			"DESCRIPTION" => Loc::getMessage('SALE_HPS_QR_DIRECTOR_NAME_DESC'),
+			'SORT' => 350,
+			'GROUP' => 'Квитанция',
+		),
+		"QR_CHECKOUT_BUH_NAME" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_BUH_NAME"),
+			"DESCRIPTION" => Loc::getMessage('SALE_HPS_QR_BUH_NAME_DESC'),
+			'SORT' => 360,
+			'GROUP' => 'Квитанция',
+		),
+		"QR_CHECKOUT_COMPANY_LOGO" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_COMPANY_LOGO"),
+			"DESCRIPTION" => Loc::getMessage('SALE_HPS_QR_COMPANY_LOGO_DESC'),
+			'SORT' => 370,
+			'GROUP' => 'Квитанция',
+			'INPUT' => array(
+				'TYPE' => 'FILE'
+			)
+		),
+		"QR_CHECKOUT_STAMP" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_STAMP"),
+			"DESCRIPTION" => '',
+			'SORT' => 380,
+			'GROUP' => 'Квитанция',
+			'INPUT' => array(
+				'TYPE' => 'FILE'
+			)
+		),
+		"QR_CHECKOUT_DIRECTOR_SIGN" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_DIRECTOR_SIGN"),
+			"DESCRIPTION" => '',
+			'SORT' => 390,
+			'GROUP' => 'Квитанция',
+			'INPUT' => array(
+				'TYPE' => 'FILE'
+			)
+		),
+		"QR_CHECKOUT_BUH_SIGN" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_BUH_SIGN"),
+			"DESCRIPTION" => '',
+			'SORT' => 400,
+			'GROUP' => 'Квитанция',
+			'INPUT' => array(
+				'TYPE' => 'FILE'
+			)
+		),
+		"QR_CHECKOUT_COMPANY_PHONE" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_COMPANY_PHONE"),
+			"DESCRIPTION" => '',
+			'SORT' => 410,
+			'GROUP' => 'Квитанция'
+		),
+		"QR_CHECKOUT_COMPANY_ADDRESS" => array(
+			"NAME" => Loc::getMessage("SALE_HPS_QR_COMPANY_ADDRESS"),
+			"DESCRIPTION" => '',
+			'SORT' => 420,
+			'GROUP' => 'Квитанция'
+		),
+
 	)
 );
